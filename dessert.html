@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jollibee - Desserts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+
+  <img src="images/jollibee logo.jpg" alt="Jollibee Logo" width="120">
+  <h1>Jollibee Desserts</h1>
+
+  <nav>
+    <a href="index.html">Main Course</a> |
+    <a href="drinks.html">Drinks</a> |
+    <a href="dessert.html">Dessert</a>
+  </nav>
+
+  </header>
+
+  <section class="menu">
+    <h2>Desserts</h2>
+
+    <div class="item">
+      <span>Peach Mango Pie (₱45)</span>
+      <input type="number" id="pieQty" min="0" value="0">
+    </div>
+    <div class="item">
+      <span>Halo-Halo (₱75)</span>
+      <input type="number" id="haloQty" min="0" value="0">
+    </div>
+    <div class="item">
+      <span>Chocolate Sundae (₱40)</span>
+      <input type="number" id="sundaeQty" min="0" value="0">
+    </div>
+
+    <label for="age">Enter your age:</label>
+    <input type="number" id="age" min="0">
+
+    <button onclick="computeDessert()">Place Order</button>
+
+    <h3>Order Summary</h3>
+    <p>Original Total: ₱<span id="originalTotal">0</span></p>
+    <p>Discount: ₱<span id="discount">0</span></p>
+    <p>Final Total: ₱<span id="finalTotal">0</span></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #ffffff; /* clean white background */
+  color: #333;
+}
+
+header {
+  display: flex;
+  flex-direction: column; /* stack logo and nav vertically */
+  align-items: center;    /* center horizontally */
+  margin-bottom: 20px;
+}
+
+
+/* Header and Logo */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #d60000; /* Jollibee red */
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+/* Navigation Bar */
+nav {
+  margin: 15px 0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #d60000;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff6600; /* playful orange hover */
+}
+
+/* Menu Section */
+.menu {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #d60000;
+  border-radius: 8px;
+  background-color: #fff8f0; /* light cream background */
+}
+
+.menu h2 {
+  color: #d60000;
+  margin-bottom: 15px;
+}
+
+/* Menu Items */
+.item {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item span {
+  font-weight: bold;
+}
+
+/* Buttons */
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #d60000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a00000;
+}
+
+/* Results Section */
+h3 {
+  margin-top: 20px;
+  color: #d60000;
+}
+
+#results, p {
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+

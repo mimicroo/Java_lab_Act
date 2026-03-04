@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jollibee - Main Course</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <!-- Logo and Title -->
+    <img src="images/jollibee logo.jpg" alt="Jollibee Logo" width="120">
+    <h1>Jollibee Main Course</h1>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Main Course</a> |
+        <a href="drinks.html">Drinks</a> |
+        <a href="dessert.html">Dessert</a>
+    </nav>
+</header>
+
+<section class="menu">
+    <h2>Main Course</h2>
+
+    <!-- Menu Items -->
+    <div class="item">
+        <span>Chickenjoy (₱85)</span>
+        <input type="number" id="chickenQty" min="0" value="0">
+    </div>
+
+    <div class="item">
+        <span>Jolly Spaghetti (₱60)</span>
+        <input type="number" id="spaghettiQty" min="0" value="0">
+    </div>
+
+    <div class="item">
+        <span>Burger Steak (₱65)</span>
+        <input type="number" id="burgerQty" min="0" value="0">
+    </div>
+
+    <!-- Age Input -->
+    <label for="age">Enter your age:</label>
+    <input type="number" id="age" min="0">
+
+    <!-- Button -->
+    <button onclick="computeMainCourse()">Place Order</button>
+
+    <!-- Results Section -->
+    <h3>Order Summary</h3>
+    <p>Original Total: ₱<span id="originalTotal">0</span></p>
+    <p>Discount: ₱<span id="discount">0</span></p>
+    <p>Final Total: ₱<span id="finalTotal">0</span></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
